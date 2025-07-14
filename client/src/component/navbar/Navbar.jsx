@@ -12,6 +12,7 @@ const Navbar = () => {
         <li
           onClick={() => setmenu("home")}
           className={menu === "home" ? "active" : ""}
+        
         >
           Home
         </li>
